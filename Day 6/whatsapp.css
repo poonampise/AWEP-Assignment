@@ -1,0 +1,79 @@
+.main{
+display: flex;
+flex-direction: column;
+}
+
+.topbar{
+    display:flex;
+    flex:2;
+    height:10vh;
+    width:100vw;
+    background:rgba(128, 128, 128, 0.062);
+}
+.midsec{
+    display:flex;
+    flex:12;
+    border:solid;
+    border-radius:20px;
+    border-color: transparent;
+    height:80vh;
+    width:100vw;
+    background: url(1.jpg);
+    filter:opacity(0.5);
+}
+
+.bottomsec{
+    display:flex;
+    flex:2;
+    height:10vh;
+    width:100vw;
+    background:rgba(128, 128, 128, 0.062);
+}
+
+.propic
+{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.uname{
+    display:flex;
+    flex:4;
+    font-family:cursive;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+}
+
+.remicons{
+    display:flex;
+    flex:3;
+    padding-right:10px ;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.smiley{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.comm
+{
+    display:flex;
+    flex:4;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter
+{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}

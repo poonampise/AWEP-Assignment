@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fe53bc4dd7.js" crossorigin="anonymous"></script>
+    <script src="whatsapp.js"></script>
+    <link rel="stylesheet" href="whatsapp.css" />
+    <style>
+        html,body{
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="topbar">
+         <div class="propic">   
+        <i class="fas fa-user-circle fa-3x"></i>
+         </div>
+         <div class="uname">
+        <label style="padding:15px;">Poonam Pise</label> 
+        </div>
+        <div class="remicons"> 
+        <i class="fas fa-search fa-3x" style="margin-right:30px ;padding: 10px;"></i> 
+        <i class="fas fa-paperclip fa-3x" style="margin-right:30px ;padding:10px ;"></i>
+        <i class="fas fa-ellipsis-v fa-3x" style="margin-right:30px ;padding: 10px;"></i>
+        </div>
+        </div>
+        <div class="midsec">
+            <div id="commentBox"></div>
+        </div>
+        <div class="bottomsec">
+         <div class="smiley">
+            <i class="far fa-smile fa-3x"style="margin-right:30px ;padding: 10px;" ></i>
+         </div>
+         <div class="comm">
+             <input type="text" id="id1" style="border-radius: 40px;background: white;height:6vh;width:80vw;margin-top:10px ;"
+              placeholder="Type a Message"/>
+         </div>
+         <div class="enter">
+            <button onclick="send()" >
+                <i class="fas fa-play fa-3x fa-border-radius-50px"></i></button>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
